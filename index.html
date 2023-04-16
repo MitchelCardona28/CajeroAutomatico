@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero Automatico de Kaffarnaum</title>
+    <link href="./style.css" rel="stylesheet">
+  </head>
+  <body>
+    <section id="seccion-botones"> <!--Sección para ver los botones de los valores en primera instancia -->
+      <h1>Banco de Kaffarnaum</h1>
+      <h2>Elige un valor: </h2>
+        <div class="botones" id="botones-valores"> <!-- Botones impresos a travez de JS -->
+        </div>
+          <button id="solicitar-valor-diferente">Solicitar un valor diferente</button>  
+    </section>
+    <section id="seccion-valor"> <!--Sección para ingresar el valor diferente solicitado -->
+      <input type="text" id="monto" />
+      <input type="button" value="Continuar" id="boton" />
+    </section>
+    <section> <!-- Agregar un appendChild a ésta sección para modificar el DOM con otra tecnica -->
+      <p id="operacion"></p>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
