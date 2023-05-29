@@ -1,2 +1,2 @@
 # CajeroAutomatico
-Desarrollando la funcionalidad de un cajero automatizo
+Desarrollando la funcionalidad de un cajero automático
